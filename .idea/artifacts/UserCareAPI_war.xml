@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="UserCareAPI:war">
+    <output-path>$PROJECT_DIR$/UserCareAPI/target</output-path>
+    <root id="archive" name="usercareapi-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="UserCareAPI:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -17,6 +17,22 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="UserCare-DB" />
+        <module name="UserCare-monitoring" />
+        <module name="UserCare-Utils" />
+        <module name="UserCareAPI" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="UserCare-DB" target="1.8" />
+      <module name="UserCare-monitoring" target="1.8" />
+      <module name="UserCare-Utils" target="1.5" />
+      <module name="UserCareAPI" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
