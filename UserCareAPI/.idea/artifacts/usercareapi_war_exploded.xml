@@ -187,6 +187,10 @@
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: com.sh.usercare:UserCare-utils:0.0.1-SNAPSHOT" />
           <element id="library" level="project" name="Maven: com.sh.usercare:usercare-db:0.0.1-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-data-rest:1.4.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-rest-webmvc:2.5.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-rest-core:2.5.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.atteo:evo-inflector:1.2.1" />
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.5" />
         </element>
       </element>

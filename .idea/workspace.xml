@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c5eedbb-8c23-48f1-9cbb-8b72fa6349b4" name="Default" comment="test4">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/UserCareAPI_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/UserCareAPI_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/UserCareAPI/UserCareAPI.iml" afterPath="$PROJECT_DIR$/UserCareAPI/UserCare-API.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/UserCareAPI_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/UserCareAPI_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserCare-DB/UserCare-DB.iml" afterPath="$PROJECT_DIR$/UserCare-DB/UserCare-DB.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserCare-Utils/UserCare-Utils.iml" afterPath="$PROJECT_DIR$/UserCare-Utils/UserCare-Utils.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserCare-monitoring/UserCare-monitoring.iml" afterPath="$PROJECT_DIR$/UserCare-monitoring/UserCare-monitoring.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserCareAPI/UserCareAPI.iml" afterPath="$PROJECT_DIR$/UserCareAPI/UserCareAPI.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserCareAPI/pom.xml" afterPath="$PROJECT_DIR$/UserCareAPI/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/exception/N18IErrorCodes.java" afterPath="$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/exception/N18IErrorCodes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserCareAPI/.idea/artifacts/usercareapi_war_exploded.xml" afterPath="$PROJECT_DIR$/UserCareAPI/.idea/artifacts/usercareapi_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserCareAPI/.idea/modules.xml" afterPath="$PROJECT_DIR$/UserCareAPI/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserCareAPI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/UserCareAPI/.idea/workspace.xml" />
     </list>
     <ignored path="UserCare.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,30 +29,150 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="UserCare" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UserCareAPI/pom.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="LoggingLevel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/exception/LoggingLevel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-720">
-              <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+            <state relative-caret-position="378">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#358#359#0" expanded="false" />
+                <element signature="e#392#393#0" expanded="false" />
+                <element signature="e#446#447#0" expanded="false" />
+                <element signature="e#479#480#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="36">
+                <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="N18IErrorCodes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/exception/N18IErrorCodes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding>
+                <element signature="e#1644#1645#0" expanded="false" />
+                <element signature="e#1671#1672#0" expanded="false" />
+                <element signature="e#1710#1711#0" expanded="false" />
+                <element signature="e#1738#1739#0" expanded="false" />
+                <element signature="e#1773#1774#0" expanded="false" />
+                <element signature="e#1803#1804#0" expanded="false" />
+                <element signature="e#1839#1840#0" expanded="false" />
+                <element signature="e#1870#1871#0" expanded="false" />
+                <element signature="e#1910#1911#0" expanded="false" />
+                <element signature="e#1945#1946#0" expanded="false" />
+                <element signature="e#1995#1996#0" expanded="false" />
+                <element signature="e#2047#2048#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="N18nLoggable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/exception/N18nLoggable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserCareApiApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UserCareAPI/src/main/java/com/sh/usercare/UserCareApiApplication.java">
+      <file leaf-file-name="TimeAgo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/TimeAgo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="126">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
-                <element signature="e#497#498#0" expanded="false" />
-                <element signature="e#561#562#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1727#1728#0" expanded="false" />
+                <element signature="e#1759#1760#0" expanded="false" />
+                <element signature="e#1809#1810#0" expanded="false" />
+                <element signature="e#1851#1852#0" expanded="false" />
+                <element signature="e#1884#1885#0" expanded="false" />
+                <element signature="e#1915#1916#0" expanded="false" />
+                <element signature="e#1964#1965#0" expanded="false" />
+                <element signature="e#2004#2005#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModulePosType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/ModulePosType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModuleDisplay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/ModuleDisplay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IpConvertor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/IpConvertor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/ImageType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+              <folding>
+                <element signature="e#1518#1519#0" expanded="false" />
+                <element signature="e#1552#1553#0" expanded="false" />
+                <element signature="e#1595#1596#0" expanded="false" />
+                <element signature="e#1634#1635#0" expanded="false" />
+                <element signature="e#1674#1675#0" expanded="false" />
+                <element signature="e#1710#1711#0" expanded="false" />
+                <element signature="e#1746#1747#0" expanded="false" />
+                <element signature="e#1781#1782#0" expanded="false" />
+                <element signature="e#1818#1819#0" expanded="false" />
+                <element signature="e#1854#1855#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -75,6 +193,8 @@
       <list>
         <option value="$PROJECT_DIR$/UserCare-Utils/pom.xml" />
         <option value="$PROJECT_DIR$/UserCareAPI/pom.xml" />
+        <option value="$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/exception/N18IErrorCodes.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -92,38 +212,7 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="UserCareAPI" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="UserCareAPI" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="47" />
@@ -156,7 +245,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -164,16 +252,6 @@
               <option name="myItemId" value="UserCare" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserCare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -181,12 +259,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UserCare-monitoring" />
+              <option name="myItemId" value="UserCareAPI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -201,7 +280,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Spring Boot.UserCare-Monitoring-Run">
+  <component name="RunManager" selected="Spring Boot.UserCareAPI-run">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -638,14 +717,6 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="UserCareAPI-run" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sh.usercare.UserCareApiApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="UserCareAPI" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="UserCare-Monitoring-Run" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sh.usercare.monitor.UserCareMonitoringApplication" />
@@ -654,9 +725,17 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="UserCareAPI-run" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sh.usercare.UserCareApiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="UserCare-API" />
+      <envs />
+      <method />
+    </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.UserCareAPI-run" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.UserCare-Monitoring-Run" />
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.UserCare-Monitoring-Run" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.UserCareAPI-run" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -677,7 +756,9 @@
       <workItem from="1472374105586" duration="45000" />
       <workItem from="1473757867467" duration="303000" />
       <workItem from="1473758726426" duration="175000" />
-      <workItem from="1473758912322" duration="3129000" />
+      <workItem from="1473758912322" duration="8609000" />
+      <workItem from="1473776444994" duration="2392000" />
+      <workItem from="1473835454346" duration="1345000" />
     </task>
     <task id="LOCAL-00001" summary="test3">
       <created>1473758990792</created>
@@ -700,45 +781,52 @@
       <option name="project" value="LOCAL" />
       <updated>1473759470853</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test4">
+      <created>1473762327940</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1473762327940</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3783000" />
+    <option name="totallyTimeSpent" value="13000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="24" width="1319" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.4972506" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.4972506" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993808" sideWeight="0.5027494" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299293" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.4972506" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2972136" sideWeight="0.5058916" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299293" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299293" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.4972506" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.4972506" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24901807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24744697" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299293" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3993808" sideWeight="0.4972506" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45820433" sideWeight="0.4941084" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -767,11 +855,230 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/exception/LoggingLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#358#359#0" expanded="false" />
+            <element signature="e#392#393#0" expanded="false" />
+            <element signature="e#446#447#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="36">
+            <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/exception/N18IErrorCodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="e#1644#1645#0" expanded="false" />
+            <element signature="e#1671#1672#0" expanded="false" />
+            <element signature="e#1710#1711#0" expanded="false" />
+            <element signature="e#1738#1739#0" expanded="false" />
+            <element signature="e#1773#1774#0" expanded="false" />
+            <element signature="e#1803#1804#0" expanded="false" />
+            <element signature="e#1839#1840#0" expanded="false" />
+            <element signature="e#1870#1871#0" expanded="false" />
+            <element signature="e#1910#1911#0" expanded="false" />
+            <element signature="e#1945#1946#0" expanded="false" />
+            <element signature="e#1995#1996#0" expanded="false" />
+            <element signature="e#2047#2048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/exception/N18nLoggable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/TimeAgo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1727#1728#0" expanded="false" />
+            <element signature="e#1759#1760#0" expanded="false" />
+            <element signature="e#1809#1810#0" expanded="false" />
+            <element signature="e#1851#1852#0" expanded="false" />
+            <element signature="e#1884#1885#0" expanded="false" />
+            <element signature="e#1915#1916#0" expanded="false" />
+            <element signature="e#1964#1965#0" expanded="false" />
+            <element signature="e#2004#2005#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/ModulePosType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/ModuleDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/IpConvertor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/ImageType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <element signature="e#1518#1519#0" expanded="false" />
+            <element signature="e#1552#1553#0" expanded="false" />
+            <element signature="e#1595#1596#0" expanded="false" />
+            <element signature="e#1634#1635#0" expanded="false" />
+            <element signature="e#1674#1675#0" expanded="false" />
+            <element signature="e#1710#1711#0" expanded="false" />
+            <element signature="e#1746#1747#0" expanded="false" />
+            <element signature="e#1781#1782#0" expanded="false" />
+            <element signature="e#1818#1819#0" expanded="false" />
+            <element signature="e#1854#1855#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/exception/LoggingLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#358#359#0" expanded="false" />
+            <element signature="e#392#393#0" expanded="false" />
+            <element signature="e#446#447#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/exception/N18IErrorCodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="e#1644#1645#0" expanded="false" />
+            <element signature="e#1671#1672#0" expanded="false" />
+            <element signature="e#1710#1711#0" expanded="false" />
+            <element signature="e#1738#1739#0" expanded="false" />
+            <element signature="e#1773#1774#0" expanded="false" />
+            <element signature="e#1803#1804#0" expanded="false" />
+            <element signature="e#1839#1840#0" expanded="false" />
+            <element signature="e#1870#1871#0" expanded="false" />
+            <element signature="e#1910#1911#0" expanded="false" />
+            <element signature="e#1945#1946#0" expanded="false" />
+            <element signature="e#1995#1996#0" expanded="false" />
+            <element signature="e#2047#2048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/exception/N18nLoggable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/TimeAgo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1727#1728#0" expanded="false" />
+            <element signature="e#1759#1760#0" expanded="false" />
+            <element signature="e#1809#1810#0" expanded="false" />
+            <element signature="e#1851#1852#0" expanded="false" />
+            <element signature="e#1884#1885#0" expanded="false" />
+            <element signature="e#1915#1916#0" expanded="false" />
+            <element signature="e#1964#1965#0" expanded="false" />
+            <element signature="e#2004#2005#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/ModulePosType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/ModuleDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/IpConvertor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/ImageType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <element signature="e#1518#1519#0" expanded="false" />
+            <element signature="e#1552#1553#0" expanded="false" />
+            <element signature="e#1595#1596#0" expanded="false" />
+            <element signature="e#1634#1635#0" expanded="false" />
+            <element signature="e#1674#1675#0" expanded="false" />
+            <element signature="e#1710#1711#0" expanded="false" />
+            <element signature="e#1746#1747#0" expanded="false" />
+            <element signature="e#1781#1782#0" expanded="false" />
+            <element signature="e#1818#1819#0" expanded="false" />
+            <element signature="e#1854#1855#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UserCare-Utils/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -790,6 +1097,136 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-720">
           <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/TimeAgo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1727#1728#0" expanded="false" />
+            <element signature="e#1759#1760#0" expanded="false" />
+            <element signature="e#1809#1810#0" expanded="false" />
+            <element signature="e#1851#1852#0" expanded="false" />
+            <element signature="e#1884#1885#0" expanded="false" />
+            <element signature="e#1915#1916#0" expanded="false" />
+            <element signature="e#1964#1965#0" expanded="false" />
+            <element signature="e#2004#2005#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/ModulePosType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/ModuleDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/IpConvertor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/ImageType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <element signature="e#1518#1519#0" expanded="false" />
+            <element signature="e#1552#1553#0" expanded="false" />
+            <element signature="e#1595#1596#0" expanded="false" />
+            <element signature="e#1634#1635#0" expanded="false" />
+            <element signature="e#1674#1675#0" expanded="false" />
+            <element signature="e#1710#1711#0" expanded="false" />
+            <element signature="e#1746#1747#0" expanded="false" />
+            <element signature="e#1781#1782#0" expanded="false" />
+            <element signature="e#1818#1819#0" expanded="false" />
+            <element signature="e#1854#1855#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/exception/N18nLoggable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/exception/N18IErrorCodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="e#1644#1645#0" expanded="false" />
+            <element signature="e#1671#1672#0" expanded="false" />
+            <element signature="e#1710#1711#0" expanded="false" />
+            <element signature="e#1738#1739#0" expanded="false" />
+            <element signature="e#1773#1774#0" expanded="false" />
+            <element signature="e#1803#1804#0" expanded="false" />
+            <element signature="e#1839#1840#0" expanded="false" />
+            <element signature="e#1870#1871#0" expanded="false" />
+            <element signature="e#1910#1911#0" expanded="false" />
+            <element signature="e#1945#1946#0" expanded="false" />
+            <element signature="e#1995#1996#0" expanded="false" />
+            <element signature="e#2047#2048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.23.1/jersey-common-2.23.1.jar!/org/glassfish/jersey/internal/inject/JerseyClassAnalyzer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCare-Utils/src/main/java/com/sh/utils/exception/LoggingLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#358#359#0" expanded="false" />
+            <element signature="e#392#393#0" expanded="false" />
+            <element signature="e#446#447#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="36">
+            <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -848,11 +1285,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|UserCareAPI</last-edited>
+          <last-edited>UserCare-API</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -11,7 +11,7 @@ public enum N18IErrorCodes implements N18nLoggable {
     VOTE_DISABLED(210, LoggingLevel.DEVELOPMENT, "vote.disabled", "Vote", "Voting is disabled."),
     VOTE_POSITIVE(211, LoggingLevel.DEVELOPMENT, "vote.positive.only", "Vote", "Positive vote only."),
     ARTICLE_NOT_FOUND(301, LoggingLevel.DEVELOPMENT, "article.not.found", "Article", "Article not found."),
-    FORUM_PRIVATE(403, LoggingLevel.DEVELOPMENT, "forun.is.private", "forum", "Forum is private"),
+    FORUM_PRIVATE(403, LoggingLevel.DEVELOPMENT, "forum.is.private", "forum", "Forum is private"),
     FORBIDDEN(403, LoggingLevel.DEVELOPMENT, "permission", "Permission", "Forbidden" )
 
     ;
@@ -46,27 +46,27 @@ public enum N18IErrorCodes implements N18nLoggable {
         this.n18nCode = theN18nCode;
     }
 
-    @Override
+
     public int getCode() {
         return code;
     }
 
-    @Override
+
     public LoggingLevel getLevel() {
         return level;
     }
 
-    @Override
+
     public String getMessage() {
         return message;
     }
 
-    @Override
+
     public String getN18nCode() {
         return n18nCode;
     }
 
-    @Override
+
     public String getDefaultValue() {
         return defaultValue;
     }
