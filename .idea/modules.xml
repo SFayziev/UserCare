@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/UserCareAPI/UserCare-API.iml" filepath="$PROJECT_DIR$/UserCareAPI/UserCare-API.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserCare-Auth/UserCare-Auth.iml" filepath="$PROJECT_DIR$/UserCare-Auth/UserCare-Auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserCare-DB/UserCare-DB.iml" filepath="$PROJECT_DIR$/UserCare-DB/UserCare-DB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserCare-Gateway/UserCare-Gateway.iml" filepath="$PROJECT_DIR$/UserCare-Gateway/UserCare-Gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserCare-Mongo/UserCare-Mongo.iml" filepath="$PROJECT_DIR$/UserCare-Mongo/UserCare-Mongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserCare-Utils/UserCare-Utils.iml" filepath="$PROJECT_DIR$/UserCare-Utils/UserCare-Utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserCare-monitoring/UserCare-monitoring.iml" filepath="$PROJECT_DIR$/UserCare-monitoring/UserCare-monitoring.iml" />
