@@ -22,6 +22,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="UserCare-API" />
+        <module name="UserCare-Auth" />
         <module name="UserCare-DB" />
         <module name="UserCare-monitoring" />
         <module name="UserCare-Utils" />
@@ -29,6 +31,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="UserCare-API" target="1.8" />
+      <module name="UserCare-Auth" target="1.8" />
       <module name="UserCare-DB" target="1.8" />
       <module name="UserCare-monitoring" target="1.8" />
       <module name="UserCare-Utils" target="1.5" />

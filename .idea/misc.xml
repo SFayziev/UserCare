@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/UserCare-monitoring/pom.xml" />
         <option value="$PROJECT_DIR$/UserCareAPI/pom.xml" />
         <option value="$PROJECT_DIR$/UserCare-Utils/pom.xml" />
+        <option value="$PROJECT_DIR$/UserCare-Auth/pom.xml" />
       </list>
     </option>
   </component>

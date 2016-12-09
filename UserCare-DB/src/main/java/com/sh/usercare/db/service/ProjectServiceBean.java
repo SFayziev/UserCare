@@ -5,8 +5,6 @@ import com.sh.usercare.db.repository.ProjectRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.Cacheable;
-import org.springframework.data.rest.core.annotation.RepositoryRestResource;
-import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
@@ -17,7 +15,6 @@ import java.util.List;
 @Service
 @Transactional
 @CacheConfig(cacheNames = "projectDTO")
-@RepositoryRestResource
 public  class ProjectServiceBean extends GenericService  implements ProjectService  {
 
     @Autowired

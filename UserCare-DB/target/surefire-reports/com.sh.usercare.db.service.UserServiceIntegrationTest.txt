@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.sh.usercare.db.service.UserServiceIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 9.359 sec - in com.sh.usercare.db.service.UserServiceIntegrationTest

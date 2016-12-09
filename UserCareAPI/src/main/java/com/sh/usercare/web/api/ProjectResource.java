@@ -25,18 +25,19 @@ import static javafx.scene.input.KeyCode.H;
 
 @RestController
 @RequestMapping("/api/projects")
-@ExposesResourceFor(ProjectDTO.class)
+@EnableOAuth2Resource
 public class ProjectResource {
 
     @Inject
-    ProjectService projectService;
+    private ProjectService projectService;
 
     @Inject
-    UserService userService;
+    private UserService userService;
 
 
     private final EntityLinks entityLinks;
 
+    @Autowired
     public ProjectResource(EntityLinks entityLinks) {
         this.entityLinks = entityLinks;
     }

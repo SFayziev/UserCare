@@ -1,0 +1,20 @@
+info:
+  component: Config Server
+
+server:
+  port: 8888
+
+management:
+  context-path: /admin
+
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/SFayziev/config-repo
+  application:
+    name: configserver
+  jmx:
+    default_domain: cloud.config.server
