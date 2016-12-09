@@ -1,0 +1,17 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "status",
+            "fieldType": "Integer"
+        }
+    ],
+
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "projects",
+    "pagination": "no",
+    "microserviceName": "jhipsterMongoDB",
+    "searchEngine": false
+}
