@@ -15,6 +15,7 @@ import com.sh.jhipster.gw.service.SequenceIdService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Example;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
@@ -90,8 +91,9 @@ public class CommentsServiceImpl implements CommentsService{
      *
      *  @return the list of entities
      */
-    public List<Comments> findAll(int  projid , Long articid) {
+    public List<Comments> findAll(int  projid , Long articid, Pageable pageable) {
         log.debug("Request to get all Comments");
+
         final List<Comments> result = commentsRepository.findAll();
 
         return result;

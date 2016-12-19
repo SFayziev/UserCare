@@ -1,6 +1,7 @@
 package com.sh.jhipster.gw.service;
 
 import com.sh.jhipster.gw.domain.Comments;
+import org.springframework.data.domain.Pageable;
 
 import java.util.List;
 
@@ -22,7 +23,7 @@ public interface CommentsService {
      *
      *  @return the list of entities
      */
-    List<Comments> findAll(int  projid , Long articid);
+    List<Comments> findAll(int  projid , Long articid, Pageable pageable);
 
     /**
      *  Get the "id" comments.

@@ -1,6 +1,7 @@
 package com.sh.jhipster.gw.service;
 
 import com.sh.jhipster.gw.domain.Article;
+import org.springframework.data.domain.Pageable;
 
 import java.math.BigInteger;
 import java.util.List;
@@ -27,7 +28,7 @@ public interface ArticleService {
      *
      *  @return the list of entities
      */
-    List<Article> findAll(Integer projid);
+    List<Article> findAll(Integer projid, Long forumid, Pageable pageable );
 
     /**
      *  Get the "number" article.
@@ -42,7 +43,7 @@ public interface ArticleService {
      *
      *  @param number the id of the entity
      */
-    void delete(String id );
+    void delete(Integer projid, Long number );
 
     boolean incrementStatistic(Integer projid, Long number, String incrementKey,  int value);
 }

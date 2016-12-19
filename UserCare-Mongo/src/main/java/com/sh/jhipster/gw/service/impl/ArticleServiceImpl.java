@@ -11,6 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
@@ -20,6 +21,7 @@ import org.springframework.stereotype.Service;
 import javax.inject.Inject;
 import java.math.BigInteger;
 import java.util.List;
+import java.util.Optional;
 
 import static org.springframework.data.domain.ExampleMatcher.GenericPropertyMatchers.endsWith;
 import static org.springframework.data.domain.ExampleMatcher.GenericPropertyMatchers.exact;
@@ -64,10 +66,9 @@ public class ArticleServiceImpl implements ArticleService{
      *
      *  @return the list of entities
      */
-    public List<Article> findAll(Integer projid) {
+    public List<Article> findAll(Integer projid, Long forumid, Pageable pageable) {
         log.debug("Request to get all project's Articles");
-        ExampleMatcher matcher = ExampleMatcher.matching().withMatcher("projid" ,exact());
-        List<Article> result = articleRepository.findAll(Example.of(new Article(projid), matcher) );
+        List<Article> result = mongoTemplate.find( getQueryArticle(projid, forumid, null, null, null, null ), Article.class );
         return result;
     }
 
@@ -80,7 +81,7 @@ public class ArticleServiceImpl implements ArticleService{
      */
     public Article findOne(Integer projid, Long number) {
         log.debug("Request to get Article : {}", number);
-        Article result =  mongoTemplate.findOne(query(where("projid").is(projid).and("number").is(number) ), Article.class );
+        Article result =  mongoTemplate.findOne(getQueryArticle(projid, null, null, null,  null,  number) , Article.class );
         return result;
     }
 
@@ -90,9 +91,9 @@ public class ArticleServiceImpl implements ArticleService{
      *  @param projid the id of the Project
      *  @param number article id number
      */
-    public void delete(String id ) {
-        log.debug("Request to delete Article : {}", id);
-        articleRepository.delete(id);
+    public void delete(Integer projid, Long number ) {
+        log.debug("Request to delete Article : {}", number);
+//        articleRepository.delete(id);
     }
 
 
@@ -106,19 +107,21 @@ public class ArticleServiceImpl implements ArticleService{
     public boolean incrementStatistic(Integer projid, Long number, String incrementKey,  int value) {
         log.debug("Increment Statistic of  Article : {}", number);
         final Update update = new Update().inc(incrementKey, value);
-        return  mongoTemplate.updateFirst(getQueryArticle(projid, number), update , Article.class ).getN()>0 ;
+        return  mongoTemplate.updateFirst(getQueryArticle(projid, null , null, null, null, number), update , Article.class ).getN()>0 ;
 
     }
 
-    private Query getQueryArticle(int projid, long  articid){
-        Query query= new Query(new Criteria().andOperator(
+    private Query getQueryArticle(int projid, Long forumid, Long catid, Long status, Long type, Long  articid){
+        final  Query query= new Query(new Criteria().andOperator(
             Criteria.where("projid").is(projid)));
-        query.addCriteria(Criteria.where("articid").is(articid) );
-//        if (bucketid != null) query.addCriteria(Criteria.where("bucketid").is(bucketid) );
-//        if (number!= null)  query.addCriteria(Criteria.where("commentsList").elemMatch(Criteria.where("number").is(number)));
-
+        if(ServiceUtils.isNotNullorZero(articid)) query.addCriteria(Criteria.where("number").is(articid) );
+        if(ServiceUtils.isNotNullorZero(forumid)) query.addCriteria(Criteria.where("forumid").is(forumid) );
+        if(ServiceUtils.isNotNullorZero(catid)) query.addCriteria(Criteria.where("catid").is(catid) );
+        if(ServiceUtils.isNotNullorZero(forumid)) query.addCriteria(Criteria.where("status").is(status) );
+        if(ServiceUtils.isNotNullorZero(catid)) query.addCriteria(Criteria.where("type").is(type) );
         return query;
     }
+
 
 
 }

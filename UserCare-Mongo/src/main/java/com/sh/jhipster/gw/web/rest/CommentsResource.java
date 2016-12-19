@@ -88,7 +88,7 @@ public class CommentsResource  extends AbstractResource{
     @Timed
     public List<Comments> getAllComments(@PathVariable long articid ) {
         log.debug("REST request to get all Comments");
-        return commentsService.findAll(getProjectId(), articid);
+        return commentsService.findAll(getProjectId(), articid, null);
     }
 
     /**

@@ -1,7 +1,5 @@
 package com.sh.jhipster.gw.service.impl;
 
-import com.sh.jhipster.gw.domain.Article;
-import com.sh.jhipster.gw.domain.Comments;
 import com.sh.jhipster.gw.domain.util.MangoDBParams;
 import com.sh.jhipster.gw.service.CommentBucketsService;
 import com.sh.jhipster.gw.domain.CommentBuckets;
@@ -9,10 +7,6 @@ import com.sh.jhipster.gw.repository.CommentBucketsRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.mongodb.core.MongoTemplate;
-import org.springframework.data.mongodb.core.aggregation.ProjectionOperation;
-import org.springframework.data.mongodb.core.query.Criteria;
-import org.springframework.data.mongodb.core.query.Query;
-import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
 
 import javax.inject.Inject;

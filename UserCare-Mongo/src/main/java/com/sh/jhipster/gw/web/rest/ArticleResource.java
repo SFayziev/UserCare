@@ -96,7 +96,7 @@ public class ArticleResource extends AbstractResource{
     public List<Article> getAllArticles() {
         Integer projid = getProjectId();
         log.debug("REST request to get all Articles  for project {}", projid );
-        return articleService.findAll(projid);
+        return articleService.findAll(projid, 0L , null );
     }
 
     /**
@@ -137,7 +137,7 @@ public class ArticleResource extends AbstractResource{
             return ResponseEntity.noContent().build();
         }
         else {
-            articleService.delete(article.getId());
+            articleService.delete(article.getProjid(), article.getNumber() );
             return ResponseEntity.ok().headers(HeaderUtil.createEntityDeletionAlert("article", number.toString())).build();
         }
     }
