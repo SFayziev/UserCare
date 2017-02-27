@@ -1,5 +1,8 @@
 package com.sh.jhipster.gw.config;
 
+import com.mongodb.MongoClient;
+import com.mongodb.MongoCredential;
+import com.mongodb.ServerAddress;
 import com.sh.jhipster.gw.domain.util.JSR310DateConverters.*;
 import com.mongodb.Mongo;
 import com.github.mongobee.Mongobee;
@@ -76,9 +79,13 @@ public class DatabaseConfiguration extends AbstractMongoConfiguration {
         log.debug("Configuring Mongobee");
         Mongobee mongobee = new Mongobee(mongo);
         mongobee.setDbName(mongoProperties.getDatabase());
+
         // package to scan for migrations
         mongobee.setChangeLogsScanPackage("com.sh.jhipster.gw.config.dbmigrations");
         mongobee.setEnabled(true);
+
         return mongobee;
     }
+
+
 }

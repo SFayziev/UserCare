@@ -6,6 +6,7 @@ import com.sh.jhipster.gw.service.CommentsService;
 import com.sh.jhipster.gw.web.rest.util.HeaderUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -86,9 +87,9 @@ public class CommentsResource  extends AbstractResource{
         method = RequestMethod.GET,
         produces = MediaType.APPLICATION_JSON_VALUE)
     @Timed
-    public List<Comments> getAllComments(@PathVariable long articid ) {
+    public List<Comments> getAllComments(@PathVariable long articid, Pageable pageable ) {
         log.debug("REST request to get all Comments");
-        return commentsService.findAll(getProjectId(), articid, null);
+        return commentsService.findAll(getProjectId(), articid, pageable);
     }
 
     /**

@@ -9,8 +9,9 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * Created by Faiziev Shuhrat on 11/25/16.
  */
-public abstract class AbstractResource {
-    public Integer getProjectId(){
+
+abstract class AbstractResource {
+     Integer getProjectId(){
         HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder
             .getRequestAttributes()).getRequest();
 

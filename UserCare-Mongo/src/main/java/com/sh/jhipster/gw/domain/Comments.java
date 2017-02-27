@@ -20,7 +20,6 @@ public class Comments implements Serializable {
     @Field("number")
     private Long number;
 
-
     @Field("status")
     private Integer status;
 
@@ -43,7 +42,6 @@ public class Comments implements Serializable {
     private LocalDate lastchange;
 
     private String slug;
-
 
     @Field("type")
     private Integer type;
@@ -181,3 +179,4 @@ public class Comments implements Serializable {
             '}';
     }
 }
+

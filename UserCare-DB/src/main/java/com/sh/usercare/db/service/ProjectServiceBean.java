@@ -28,7 +28,7 @@ public  class ProjectServiceBean extends GenericService  implements ProjectServi
 
     @Override
     @Cacheable
-    public ProjectDTO findOne(Long id) {
+    public ProjectDTO findOne(long id) {
         return projectRepository.findOne(id);
     }
 
@@ -43,7 +43,7 @@ public  class ProjectServiceBean extends GenericService  implements ProjectServi
     }
 
     @Override
-    public void delete(Long id) {
+    public void delete(long id) {
 
     }
 

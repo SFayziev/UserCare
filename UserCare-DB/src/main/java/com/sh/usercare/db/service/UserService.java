@@ -23,21 +23,21 @@ public interface UserService {
 
     UserDTO getUser(String username , String alias);
 
-    UserDTO getUserByEmail(Long projid, String email) ;
+    UserDTO getUserByEmail(long projid, String email) ;
 
-    UserPermissionsDTO getUserPermission(Long projid, Long userid );
+    UserPermissionsDTO getUserPermission(long projid, long userid );
 
     OauthidDTO updateOAuthToken(String oAuthToken, UserDTO currentUser);
 
     OauthidDTO findByProviderAndAccessToken(String providerName , String socialId );
 
-    UserDTO getProjectUserByUsername( Long projId , String  username);
+    UserDTO getProjectUserByUsername( long projId , String  username);
 
-    UserDTO getProjectUserByid( Long projid , Long  userid);
+    UserDTO getProjectUserByid( long projid , long  userid);
 
-    List<UserDTO> getProjectStaff(Long projId , Integer  limit);
+    List<UserDTO> getProjectStaff(long projId , int  limit);
 
-    List<UserDTO> getUsersList(Long projid, Integer type, Integer status, String username , String email , Integer  start, Integer limit, String order ) ;
+    List<UserDTO> getUsersList(long projid, int type, int status, String username , String email , int  start, int limit, String order ) ;
 
     void deleteUserPermissions(UserPermissionsDTO userPermissionsDTO) ;
 

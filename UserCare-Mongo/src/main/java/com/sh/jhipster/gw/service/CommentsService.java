@@ -16,14 +16,14 @@ public interface CommentsService {
      * @param comments the entity to save
      * @return the persisted entity
      */
-    Comments save(int  projid , Long articid,  Comments comments);
+    Comments save(int  projid , long articid,  Comments comments);
 
     /**
      *  Get all the comments.
      *
      *  @return the list of entities
      */
-    List<Comments> findAll(int  projid , Long articid, Pageable pageable);
+    List<Comments> findAll(int  projid , long articid, Pageable pageable);
 
     /**
      *  Get the "id" comments.

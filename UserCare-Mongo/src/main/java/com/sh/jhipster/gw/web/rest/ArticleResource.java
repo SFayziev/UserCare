@@ -6,6 +6,7 @@ import com.sh.jhipster.gw.service.ArticleService;
 import com.sh.jhipster.gw.web.rest.util.HeaderUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -93,10 +94,10 @@ public class ArticleResource extends AbstractResource{
         method = RequestMethod.GET,
         produces = MediaType.APPLICATION_JSON_VALUE)
     @Timed
-    public List<Article> getAllArticles() {
+    public List<Article> getAllArticles(Pageable pageable) {
         Integer projid = getProjectId();
         log.debug("REST request to get all Articles  for project {}", projid );
-        return articleService.findAll(projid, 0L , null );
+        return articleService.findAll(projid, 0L , pageable );
     }
 
     /**

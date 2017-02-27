@@ -62,7 +62,7 @@ public class UserServiceBean extends GenericService  implements UserService {
     }
 
     @Override
-    public UserDTO getUserByEmail(Long projid, String email) {
+    public UserDTO getUserByEmail(long projid, String email) {
         return (UserDTO) getEntityManager().createQuery("from UserDTO as us where us.projid=:projid and  us.email=:email")
                 .setParameter("email", email).setParameter("projid", projid) .getSingleResult();
     }
@@ -87,20 +87,20 @@ public class UserServiceBean extends GenericService  implements UserService {
     }
 
     @Override
-    public UserDTO getProjectUserByUsername(Long projId, String username) {
+    public UserDTO getProjectUserByUsername(long projId, String username) {
         return (UserDTO) getEntityManager().createQuery("from UserDTO ud where ud.projid=:projid and  ud.username=:username")
                 .setParameter("username", username).setParameter("projid", projId).getSingleResult();
     }
 
 
     @Override
-    public UserDTO getProjectUserByid(Long projid, Long userid) {
+    public UserDTO getProjectUserByid(long projid, long userid) {
         return (UserDTO) getEntityManager().createQuery("from UserDTO ud where ud.projid=:projid and  ud.id=:userid")
                 .setParameter("userid", userid).setParameter("projid", projid).getSingleResult();
     }
 
     @Override
-    public List<UserDTO> getProjectStaff(Long projid, Integer limit) {
+    public List<UserDTO> getProjectStaff(long projid, int limit) {
         Query query= getEntityManager().createQuery("from UserDTO ud where ud.projid=:projid and ud.status=1 and (userGrDTO.id=1 or ud.userGrDTO.id=2 )")
                  .setParameter("projid", projid) ;
         if (limit>0) query.setMaxResults(limit);
@@ -109,7 +109,7 @@ public class UserServiceBean extends GenericService  implements UserService {
     }
 
     @Override
-    public List<UserDTO> getUsersList(Long projid, Integer type, Integer status, String username, String email, Integer start, Integer limit, String order) {
+    public List<UserDTO> getUsersList(long projid, int type, int status, String username, String email, int start, int limit, String order) {
         CriteriaBuilder builder = getEntityManager().getCriteriaBuilder();
         CriteriaQuery<UserDTO> criteria = builder.createQuery( UserDTO.class );
         Root<UserDTO> root = criteria.from( UserDTO.class );
@@ -155,7 +155,7 @@ public class UserServiceBean extends GenericService  implements UserService {
     }
 
     @Override
-    public UserPermissionsDTO getUserPermission(Long projid, Long userid) {
+    public UserPermissionsDTO getUserPermission(long projid, long userid) {
         return (UserPermissionsDTO) getEntityManager().createQuery("select ud.userPermissionsDTO from UserDTO ud where ud.id=:id and  ud.projid=:projid")
                 .setParameter("id", userid).setParameter("projid", projid).getSingleResult();
     }

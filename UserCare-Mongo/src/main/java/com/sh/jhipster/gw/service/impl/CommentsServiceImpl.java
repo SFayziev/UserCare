@@ -58,14 +58,12 @@ public class CommentsServiceImpl implements CommentsService{
      * @return the persisted entity
      */
     @Transactional
-    public Comments save(int  projid , Long articid,  Comments comments) {
+    public Comments save(int  projid , long articid,  Comments comments) {
         log.debug(" ------ Request to save Comments : {}  ------ ", comments);
         Boolean isnew=false;
         Article article = articleService.findOne(projid, articid );
         if (article != null){
-
             if (comments.getNumber() == null || comments.getNumber()==0) isnew=true;
-
             CommentBuckets commentBuckets= commentBucketsService.findLast(projid, articid );
             if (commentBuckets == null ) {
                 commentBuckets= new CommentBuckets(projid, articid);
@@ -91,11 +89,9 @@ public class CommentsServiceImpl implements CommentsService{
      *
      *  @return the list of entities
      */
-    public List<Comments> findAll(int  projid , Long articid, Pageable pageable) {
+    public List<Comments> findAll(int  projid , long articid, Pageable pageable) {
         log.debug("Request to get all Comments");
-
         final List<Comments> result = commentsRepository.findAll();
-
         return result;
     }
 
@@ -121,8 +117,8 @@ public class CommentsServiceImpl implements CommentsService{
         final Query query= getQueryComment(projid, articid, null, number);
         final Update increaseCommentBucket= new Update().inc("count", -1);
 
-        WriteResult writeResult= mongoTemplate.updateFirst(query, increaseCommentBucket, CommentBuckets.class);
-//        TODO : rice exception if writeResult.getN() eq 0
+        WriteResult writeResult = mongoTemplate.updateFirst(query, increaseCommentBucket, CommentBuckets.class);
+//        TODO : rise exception if writeResult.getN() eq 0
 
         final Update update = new Update().pull("commentsList", new BasicDBObject("number", number));
         WriteResult result= mongoTemplate .updateFirst(query, update, CommentBuckets.class );
@@ -145,22 +141,20 @@ public class CommentsServiceImpl implements CommentsService{
     private int  addComment(final int projid, final long  articid, final Integer bucketid, final Comments comments){
         Query query=getQueryComment(projid, articid , bucketid,  null);
         final Update update = new Update().addToSet("commentsList", comments);
-          WriteResult result = mongoTemplate.updateFirst(query, update, CommentBuckets.class );
+        WriteResult result = mongoTemplate.updateFirst(query, update, CommentBuckets.class );
             if (result.getN()>0) {
                 final Update increaseCommentBucket= new Update().inc("count", 1);
                 mongoTemplate.updateFirst(query, increaseCommentBucket, CommentBuckets.class);
             }
-           return result.getN();
+        return result.getN();
     }
 
     private Query getQueryComment(final  int projid, final  long  articid, final  Integer bucketid, final  Long number){
         final  Query query= new Query();
-            query.addCriteria(Criteria.where("projid").is(projid) );
-
-            query.addCriteria(Criteria.where("articid").is(articid) );
-            if (bucketid != null) query.addCriteria(Criteria.where("bucketid").is(bucketid) );
-            if (number!= null)  query.addCriteria(Criteria.where("commentsList").elemMatch(Criteria.where("number").is(number)));
-
+        query.addCriteria(Criteria.where("projid").is(projid) );
+        query.addCriteria(Criteria.where("articid").is(articid) );
+        if (bucketid != null) query.addCriteria(Criteria.where("bucketid").is(bucketid) );
+        if (number != null)  query.addCriteria(Criteria.where("commentsList").elemMatch(Criteria.where("number").is(number)));
         return query;
     }
 

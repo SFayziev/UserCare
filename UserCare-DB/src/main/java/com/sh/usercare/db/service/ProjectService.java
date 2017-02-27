@@ -12,13 +12,13 @@ public interface ProjectService  {
     @Secured("ROLE_MANAGER")
     Collection<ProjectDTO> findAll();
 
-    ProjectDTO findOne(Long id);
+    ProjectDTO findOne(long id);
 
     ProjectDTO create(ProjectDTO greeting);
 
     ProjectDTO update(ProjectDTO greeting);
 
-    void delete(Long id);
+    void delete(long id);
 
     ProjectDTO findByNames(String name);
 
